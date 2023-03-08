@@ -38,6 +38,14 @@ namespace Specials
 
             Console.WriteLine($"decimal max = {decimal.MaxValue}");
             Console.WriteLine($"decimal min = {decimal.MinValue}");
+
+            Console.WriteLine($"float +inf = {float.PositiveInfinity}");
+            Console.WriteLine($"float -inf = {float.NegativeInfinity}");
+            Console.WriteLine($"float Nan = {float.NaN}");
+
+            Console.WriteLine($"double +inf = {double.PositiveInfinity}");
+            Console.WriteLine($"double -inf = {double.NegativeInfinity}");
+            Console.WriteLine($"double Nan = {double.NaN}");
         }
     }
 }
