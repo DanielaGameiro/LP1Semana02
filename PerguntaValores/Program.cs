@@ -9,7 +9,6 @@ namespace PerguntaValores
             // Variables
             string heightStr, radiusStr;
             float height, radius, vol, supArea;
-            float pi = 3.1415926f;
 
             // Ask the user for height and radius
             Console.Write("Height is: ");
@@ -23,10 +22,10 @@ namespace PerguntaValores
             radius = float.Parse(radiusStr);
 
             // Calculate volume
-            vol = pi * radius * radius * height;
+            vol = (float)Math.PI * (float)Math.Pow(radius, 2) * height;
 
             // Calculate superficial area
-            supArea = 2 * pi * radius * (radius + height);
+            supArea = 2 * (float)Math.PI * radius * (radius + height);
 
             // Show volume and superficial area
             Console.WriteLine($"Volume is: {vol:f2}");
