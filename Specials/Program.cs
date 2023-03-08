@@ -56,6 +56,13 @@ namespace Specials
             Console.WriteLine($"short min = {s}");
             s--;
             Console.WriteLine($"short min -1 = {s}");
+
+            float fMax = (float.MaxValue);
+            Console.WriteLine(fMax * 2);
+
+            double dMax = (double.MaxValue);
+            Console.WriteLine($"double max = {double.MaxValue}");
+            Console.WriteLine(dMax + 1);
         }
     }
 }
