@@ -63,6 +63,14 @@ namespace Specials
             double dMax = (double.MaxValue);
             Console.WriteLine($"double max = {double.MaxValue}");
             Console.WriteLine(dMax + 1);
+
+            float f1, f2;
+            f1 = f2 = 10.0f;
+            Console.WriteLine(f1 == f2 + 0.0000001f);
+
+            double d1, d2;
+            d1 = d2 = 10.0f;
+            Console.WriteLine(d1 == d2 + 0.0000001);
         }
     }
 }
