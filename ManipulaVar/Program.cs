@@ -9,10 +9,19 @@ namespace ManipulaVar
             int x = Convert.ToInt32(args[0]);
 
             int a = 1, b;
-            b = a++ + x++; // a=2, x=input=2, b=2
+            b = a++ + x++;
 
+            Console.WriteLine("");
             Console.WriteLine($"O resultado da operação é {b}.");
             Console.WriteLine($"O valor de A é {a}.");
+            Console.WriteLine($"O valor de X é {x}.");
+
+            int c = 1, d;
+            d = c++ + --x;
+
+            Console.WriteLine("");
+            Console.WriteLine($"O resultado da operação é {d}.");
+            Console.WriteLine($"O valor de C é {c}.");
             Console.WriteLine($"O valor de X é {x}.");
         }
     }
