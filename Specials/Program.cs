@@ -46,6 +46,16 @@ namespace Specials
             Console.WriteLine($"double +inf = {double.PositiveInfinity}");
             Console.WriteLine($"double -inf = {double.NegativeInfinity}");
             Console.WriteLine($"double Nan = {double.NaN}");
+
+            byte b = byte.MaxValue;
+            Console.WriteLine($"byte max = {b}");
+            b++;
+            Console.WriteLine($"byte max +1 = {b}");
+
+            short s = short.MinValue;
+            Console.WriteLine($"short min = {s}");
+            s--;
+            Console.WriteLine($"short min -1 = {s}");
         }
     }
 }
